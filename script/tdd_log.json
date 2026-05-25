@@ -38,9 +38,47 @@
     "testId": 1
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e98686f50653e9aec5047ef3d7341540e9a81875",
     "commitName": "retorna el numero cuando la cadena es un numero",
     "commitTimestamp": 1779677501483,
     "testId": 1
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 1,
+    "numTotalTests": 3,
+    "timestamp": 1779677811403,
+    "success": false,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 1,
+    "numTotalTests": 3,
+    "timestamp": 1779677839884,
+    "success": false,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 1,
+    "numTotalTests": 3,
+    "timestamp": 1779677927075,
+    "success": false,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 0,
+    "numTotalTests": 3,
+    "timestamp": 1779677940585,
+    "success": true,
+    "testId": 2
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "retorna la suma de la cadena cuando tiene dos numeros separados por coma",
+    "commitTimestamp": 1779678048762,
+    "testId": 2
   }
 ]
