@@ -11,8 +11,11 @@ function sumar(cadena) {
   let suma = 0;
   for (const elemento of elementos) {
     const numeros = elemento.split(/[-,]/);
-    for (const n of numeros) 
-      suma += Number(n);
+    for (const n of numeros) {
+      const valor = Number(n);
+      if (valor < 1000) 
+        suma += valor;
+    }
   }
   return suma;
 }

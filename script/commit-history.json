@@ -95,12 +95,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a9134a50808838c5ca4f8fc19bcc51ad03816d79",
     "author": "Salma Torres",
     "commit": {
       "date": "2026-05-25T03:28:35.000Z",
       "message": "retorna la suma de la cadena cuando tiene varios numeros separados por una coma, guion o un delimitador especificado al inicio",
-      "url": "https://github.com/SalmaTorres/CalculadoraDeCadenas/commit/HEAD"
+      "url": "https://github.com/SalmaTorres/CalculadoraDeCadenas/commit/a9134a50808838c5ca4f8fc19bcc51ad03816d79"
     },
     "stats": {
       "total": 19,
@@ -110,6 +110,25 @@
     },
     "coverage": 100,
     "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Salma Torres",
+    "commit": {
+      "date": "2026-05-25T03:34:02.000Z",
+      "message": "ignora los numeros mas grandes que 100 al sumar la cadena",
+      "url": "https://github.com/SalmaTorres/CalculadoraDeCadenas/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 8,
+      "deletions": 2,
+      "date": "2026-05-25"
+    },
+    "coverage": 100,
+    "test_count": 7,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -19,4 +19,7 @@ describe("Sumar", () => {
   it("deberia retornar la suma de la cadena cuando tiene varios numeros separados por una ',' o '-' o un delimitador especificado al inicio", () => {
     expect(sumar("//[;] 6,3-2;1")).toEqual(12);
   });
+  it("deberia ignorar numeros mas grandes que 1000 al sumar", () => {
+    expect(sumar("2,1001,300")).toEqual(302);
+  });
 });
