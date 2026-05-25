@@ -1,5 +1,5 @@
-function sumar() {
-  return 0;
+function sumar(cadena) {
+  return Number(cadena);
 }
 
 export default sumar;

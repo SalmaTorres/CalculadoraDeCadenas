@@ -24,9 +24,23 @@
     "testId": 0
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f9a03ed73aeaa8bc45fe51a7ffa7fc01e85db622",
     "commitName": "Retorna 0 cuando la cadena esta vacia",
     "commitTimestamp": 1779677195543,
     "testId": 0
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 0,
+    "numTotalTests": 2,
+    "timestamp": 1779677430839,
+    "success": true,
+    "testId": 1
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "retorna el numero cuando la cadena es un numero",
+    "commitTimestamp": 1779677501483,
+    "testId": 1
   }
 ]

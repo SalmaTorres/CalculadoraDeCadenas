@@ -1,11 +1,11 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "f9a03ed73aeaa8bc45fe51a7ffa7fc01e85db622",
     "author": "Salma Torres",
     "commit": {
       "date": "2026-05-25T02:46:31.000Z",
       "message": "Retorna 0 cuando la cadena esta vacia",
-      "url": "https://github.com/SalmaTorres/CalculadoraDeCadenas/commit/HEAD"
+      "url": "https://github.com/SalmaTorres/CalculadoraDeCadenas/commit/f9a03ed73aeaa8bc45fe51a7ffa7fc01e85db622"
     },
     "stats": {
       "total": 16,
@@ -15,6 +15,25 @@
     },
     "coverage": 100,
     "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Salma Torres",
+    "commit": {
+      "date": "2026-05-25T02:51:37.000Z",
+      "message": "retorna el numero cuando la cadena es un numero",
+      "url": "https://github.com/SalmaTorres/CalculadoraDeCadenas/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 5,
+      "deletions": 2,
+      "date": "2026-05-25"
+    },
+    "coverage": 100,
+    "test_count": 2,
     "failed_tests": 0,
     "conclusion": "success"
   }
