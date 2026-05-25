@@ -1,8 +1,12 @@
 function sumar(cadena) {
-  if(Number(cadena) || Number(cadena)===0) 
-    return Number(cadena);
-  let numeros = cadena.split(',')
-  return Number(numeros[0])+Number(numeros[1]);
+  let cadena_a_numero = Number(cadena);
+  if(!isNaN(cadena_a_numero)) 
+    return cadena_a_numero;
+  let numeros_en_cadena = cadena.split(',')
+  let suma = 0;
+  for(const numero of numeros_en_cadena)
+    suma+=Number(numero);
+  return suma;
 }
 
 export default sumar;

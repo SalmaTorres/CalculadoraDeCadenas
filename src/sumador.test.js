@@ -10,4 +10,7 @@ describe("Sumar", () => {
   it("deberia retornar la suma de la cadena tiene dos numeros separados por una ','", () => {
     expect(sumar("1,2")).toEqual(3);
   });
+  it("deberia retornar la suma de la cadena cuando tiene varios numeros separados por una ','", () => {
+    expect(sumar("1,2,3,4")).toEqual(10);
+  });
 });

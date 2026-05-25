@@ -76,9 +76,31 @@
     "testId": 2
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a551439b04c93870a960a942bbd8155745f43f71",
     "commitName": "retorna la suma de la cadena cuando tiene dos numeros separados por coma",
     "commitTimestamp": 1779678048762,
     "testId": 2
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 1,
+    "numTotalTests": 4,
+    "timestamp": 1779678230304,
+    "success": false,
+    "testId": 3
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1779678424531,
+    "success": true,
+    "testId": 3
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "retorna la suma de la candena cuando tiene varios numeros separados por coma",
+    "commitTimestamp": 1779678474148,
+    "testId": 3
   }
 ]
