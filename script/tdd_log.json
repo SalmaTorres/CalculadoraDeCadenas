@@ -212,9 +212,31 @@
     "testId": 6
   },
   {
-    "commitId": "HEAD",
+    "commitId": "822cc9af20fdeeb45d5b474df8b3471afadaa575",
     "commitName": "ignora los numeros mas grandes que 100 al sumar la cadena",
     "commitTimestamp": 1779680050141,
     "testId": 6
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 1,
+    "numTotalTests": 8,
+    "timestamp": 1779680506383,
+    "success": false,
+    "testId": 7
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1779680633641,
+    "success": true,
+    "testId": 7
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "retorna la suma de los numeros en la cadena separados por una coma, guion, o un delimitador de cualquier longitud especificado al inicio",
+    "commitTimestamp": 1779680687546,
+    "testId": 7
   }
 ]
