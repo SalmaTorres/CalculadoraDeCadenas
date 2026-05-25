@@ -57,12 +57,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "45e44672cdd492c2572f82041ef8bbc59533a08a",
     "author": "Salma Torres",
     "commit": {
       "date": "2026-05-25T03:07:50.000Z",
       "message": "retorna la suma de la candena cuando tiene varios numeros separados por coma",
-      "url": "https://github.com/SalmaTorres/CalculadoraDeCadenas/commit/HEAD"
+      "url": "https://github.com/SalmaTorres/CalculadoraDeCadenas/commit/45e44672cdd492c2572f82041ef8bbc59533a08a"
     },
     "stats": {
       "total": 15,
@@ -72,6 +72,25 @@
     },
     "coverage": 100,
     "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Salma Torres",
+    "commit": {
+      "date": "2026-05-25T03:19:31.000Z",
+      "message": "retorna la suma de la cadena cuando tiene varios numeros separados por una coma o guion",
+      "url": "https://github.com/SalmaTorres/CalculadoraDeCadenas/commit/HEAD"
+    },
+    "stats": {
+      "total": 21,
+      "additions": 15,
+      "deletions": 6,
+      "date": "2026-05-25"
+    },
+    "coverage": 100,
+    "test_count": 5,
     "failed_tests": 0,
     "conclusion": "success"
   }

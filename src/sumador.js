@@ -1,11 +1,17 @@
 function sumar(cadena) {
-  let cadena_a_numero = Number(cadena);
-  if(!isNaN(cadena_a_numero)) 
-    return cadena_a_numero;
-  let numeros_en_cadena = cadena.split(',')
+  const numero = Number(cadena);
+  if (!isNaN(numero)) 
+    return numero;
+  const elementos = cadena.split(",");
   let suma = 0;
-  for(const numero of numeros_en_cadena)
-    suma+=Number(numero);
+  for (const elemento of elementos) {
+    if (elemento.includes("-")) {
+      const numeros = elemento.split("-");
+      for (const n of numeros) 
+        suma += Number(n);
+    } else 
+      suma += Number(elemento);
+  }
   return suma;
 }
 

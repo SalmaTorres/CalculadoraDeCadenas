@@ -13,4 +13,7 @@ describe("Sumar", () => {
   it("deberia retornar la suma de la cadena cuando tiene varios numeros separados por una ','", () => {
     expect(sumar("1,2,3,4")).toEqual(10);
   });
+  it("deberia retornar la suma de la cadena cuando tiene varios numeros separados por una ',' o '-'", () => {
+    expect(sumar("1-2-3-4")).toEqual(10);
+  });
 });
