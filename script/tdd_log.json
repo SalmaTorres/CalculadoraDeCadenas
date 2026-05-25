@@ -128,9 +128,63 @@
     "testId": 4
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ca0d853e73a34b043eeaa08044e9f6ed15033148",
     "commitName": "retorna la suma de la cadena cuando tiene varios numeros separados por una coma o guion",
     "commitTimestamp": 1779679177210,
     "testId": 4
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 1,
+    "numTotalTests": 6,
+    "timestamp": 1779679333403,
+    "success": false,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 1,
+    "numTotalTests": 6,
+    "timestamp": 1779679471724,
+    "success": false,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 1,
+    "numTotalTests": 6,
+    "timestamp": 1779679513567,
+    "success": false,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 1,
+    "numTotalTests": 6,
+    "timestamp": 1779679574144,
+    "success": false,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 0,
+    "numTotalTests": 6,
+    "timestamp": 1779679634161,
+    "success": true,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 0,
+    "numTotalTests": 6,
+    "timestamp": 1779679662049,
+    "success": true,
+    "testId": 5
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "retorna la suma de la cadena cuando tiene varios numeros separados por una coma, guion o un delimitador especificado al inicio",
+    "commitTimestamp": 1779679719642,
+    "testId": 5
   }
 ]
