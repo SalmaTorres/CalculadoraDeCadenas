@@ -22,7 +22,10 @@ describe("Sumar", () => {
   it("deberia ignorar numeros mas grandes que 1000 al sumar", () => {
     expect(sumar("2,1001,300")).toEqual(302);
   });
-  it("deberia retornar la suma de los sumeros en la cadena separados por una ',' o '-' o un delimitador de cualquier longitud especificado al inicio", () => {
+  it("deberia retornar la suma de los numeros en la cadena separados por una ',' o '-' o un delimitador de cualquier longitud especificado al inicio", () => {
     expect(sumar("//[***] 1***2***3")).toEqual(6);
+  });
+  it("deberia retornar la suma de los numeros en la cadena separados por multiples delimitadores", () => {
+    expect(sumar("//[*][%] 1*2%3,7-10")).toEqual(23);
   });
 });

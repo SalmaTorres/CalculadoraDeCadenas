@@ -234,9 +234,39 @@
     "testId": 7
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f2e46e26659326e188f5d9579da4e7d8d313fb45",
     "commitName": "retorna la suma de los numeros en la cadena separados por una coma, guion, o un delimitador de cualquier longitud especificado al inicio",
     "commitTimestamp": 1779680687546,
     "testId": 7
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 1,
+    "numTotalTests": 9,
+    "timestamp": 1779680819340,
+    "success": false,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 3,
+    "numTotalTests": 9,
+    "timestamp": 1779681029043,
+    "success": false,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 0,
+    "numTotalTests": 9,
+    "timestamp": 1779681137367,
+    "success": true,
+    "testId": 8
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "retorna la suma de los numeros en la cadena separados por multiples delimitadores",
+    "commitTimestamp": 1779681186295,
+    "testId": 8
   }
 ]

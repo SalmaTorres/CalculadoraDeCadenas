@@ -1,10 +1,18 @@
 function sumar(cadena) {
-  let delimitador = ",";
+  let delimitadores = [",", "-"];
 
   if (cadena.startsWith("//")) {
-    const finDelimitador = cadena.indexOf("]");
-    delimitador = cadena.slice(3, finDelimitador);
-    cadena = cadena.slice(finDelimitador + 2);
+    const finDelimitadores = cadena.indexOf(" ");
+    const parteDelimitadores = cadena.slice(2, finDelimitadores);
+    const encontrados = parteDelimitadores.match(/\[(.*?)\]/g);
+    
+    if (encontrados) {
+      delimitadores.push(
+        ...encontrados.map(d => d.slice(1, -1))
+      );
+    }
+
+    cadena = cadena.slice(finDelimitadores + 1);
   }
 
   const numero = Number(cadena);
@@ -12,18 +20,18 @@ function sumar(cadena) {
   if (!isNaN(numero)) 
     return numero;
   
-  const elementos = cadena.split(delimitador);
+  const regexDelimitadores = new RegExp(
+    delimitadores.map(d => d.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|")
+  );
+
+  const numeros = cadena.split(regexDelimitadores);
   let suma = 0;
   
-  for (const elemento of elementos) {
-    const numeros = elemento.split(/[-,]/);
+  for (const numero of numeros) {
+    const valor = Number(numero);
 
-    for (const n of numeros) {
-      const valor = Number(n);
-      
-      if (valor < 1000) 
+    if (valor < 1000) 
         suma += valor;
-    }
   }
   return suma;
 }
