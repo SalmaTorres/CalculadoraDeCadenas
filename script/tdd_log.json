@@ -264,9 +264,15 @@
     "testId": 8
   },
   {
-    "commitId": "HEAD",
+    "commitId": "85ef7b6716b4e41975746add44dafbeca011e270",
     "commitName": "retorna la suma de los numeros en la cadena separados por multiples delimitadores",
     "commitTimestamp": 1779681186295,
     "testId": 8
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Adaptar interfaz para recibir cadenas numericas",
+    "commitTimestamp": 1779681705730,
+    "testId": 9
   }
 ]

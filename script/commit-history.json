@@ -152,17 +152,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "85ef7b6716b4e41975746add44dafbeca011e270",
     "author": "Salma Torres",
     "commit": {
       "date": "2026-05-25T03:53:01.000Z",
       "message": "retorna la suma de los numeros en la cadena separados por multiples delimitadores",
-      "url": "https://github.com/SalmaTorres/CalculadoraDeCadenas/commit/HEAD"
+      "url": "https://github.com/SalmaTorres/CalculadoraDeCadenas/commit/85ef7b6716b4e41975746add44dafbeca011e270"
     },
     "stats": {
       "total": 37,
       "additions": 24,
       "deletions": 13,
+      "date": "2026-05-25"
+    },
+    "coverage": 100,
+    "test_count": 9,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Salma Torres",
+    "commit": {
+      "date": "2026-05-25T04:01:41.000Z",
+      "message": "Adaptar interfaz para recibir cadenas numericas",
+      "url": "https://github.com/SalmaTorres/CalculadoraDeCadenas/commit/HEAD"
+    },
+    "stats": {
+      "total": 35,
+      "additions": 20,
+      "deletions": 15,
       "date": "2026-05-25"
     },
     "coverage": 100,
