@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "Salma Torres",
+    "commit": {
+      "date": "2026-05-25T02:46:31.000Z",
+      "message": "Retorna 0 cuando la cadena esta vacia",
+      "url": "https://github.com/SalmaTorres/CalculadoraDeCadenas/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 7,
+      "deletions": 9,
+      "date": "2026-05-25"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]

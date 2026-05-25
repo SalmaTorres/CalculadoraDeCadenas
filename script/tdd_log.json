@@ -1,0 +1,32 @@
+[
+  {
+    "numPassedTests": 1,
+    "failedTests": 0,
+    "numTotalTests": 1,
+    "timestamp": 1779676524297,
+    "success": true,
+    "testId": 0
+  },
+  {
+    "numPassedTests": 1,
+    "failedTests": 0,
+    "numTotalTests": 1,
+    "timestamp": 1779676604550,
+    "success": true,
+    "testId": 0
+  },
+  {
+    "numPassedTests": 1,
+    "failedTests": 0,
+    "numTotalTests": 1,
+    "timestamp": 1779677134027,
+    "success": true,
+    "testId": 0
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Retorna 0 cuando la cadena esta vacia",
+    "commitTimestamp": 1779677195543,
+    "testId": 0
+  }
+]
